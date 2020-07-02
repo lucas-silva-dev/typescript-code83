@@ -1,0 +1,26 @@
+div .task-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div .dark {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #343A40;
+}
+
+div .dark .labels {
+  color: #f0f0f0;
+}
+
+div .dark .inputs {
+  outline: none;
+}
+
+div .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da;
+  box-shadow: none;
+}
